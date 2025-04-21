@@ -41,7 +41,7 @@ setup(name='WSDiscovery',
             'Topic :: Software Development :: Libraries :: Python Modules',
             'Topic :: Communications'
       ],
-      packages=['python-ws-discovery.wsdiscovery', 'python-ws-discovery.wsdiscovery.actions'],
+      packages=['wsdiscovery', 'wsdiscovery.actions'],
       setup_requires=['ifaddr', 'click'],
       install_requires=['ifaddr', 'click'],
       tests_require = ['pytest', 'mock'],
